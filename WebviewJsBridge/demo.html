@@ -1,0 +1,40 @@
+<html>
+<head>
+	<title>测试页面</title>
+
+	<script type="text/javascript">
+
+	function openCamera(){
+		window.WebViewFunc.jsCallOpenCamera();
+	}
+
+	function openMediaRecorder(){
+		window.WebViewFunc.jsCallMediaRecorder();
+	}
+
+	function openAlbum(){
+		window.WebViewFunc.jsCallAlbum();
+	}
+
+	function openMail(){
+		window.WebViewFunc.jsCallMail();
+	}
+	function openRecordVideo(){
+		window.WebViewFunc.jsCallRecordVideo();
+	}
+	function openTel(){
+		window.WebViewFunc.jsCallOpenTel();
+	}
+
+</script>
+</head>
+
+	<button type="button" onClick="openCamera()">调用拍照</button>
+    <button type="button" onClick="openAlbum()">调用系统相册</button>
+    <button type="button" onClick="openMediaRecorder()">调用录音</button>
+	<button type="button" onClick="openRecordVideo()">调用录制视频</button>
+	<button type="button" onClick="openMail()">调用邮件</button>
+    <button type="button" onClick="openTel()">打电话</button>
+    
+</body>
+</html>
